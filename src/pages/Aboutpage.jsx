@@ -4,7 +4,7 @@ import React from 'react';
 const AboutPage = () => {
     return(
         <>
-            hello
+            About Page
         </>
     );
 };
