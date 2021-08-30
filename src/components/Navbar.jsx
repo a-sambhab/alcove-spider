@@ -14,17 +14,17 @@ const Navbar = () => {
             <div className="fullsecreennav">
            
             <div className = {Burger ? "navbar" : "closed"}>
-                <a data="Home" className="navele leftele">
+                <a href="./" data="Home" className="navele leftele">
                     <NavLink className="navele leftele" to='./'>Home</NavLink>
                 </a>
-                <a data="About" className="navele rightele">
+                <a href="./" data="About" className="navele rightele">
                     <NavLink className="navele rightele" to='./aboutpage'>About</NavLink>
                 </a>
-                <a data="Services" className="navele leftele">Services</a>
-                <a data="Shop" className="navele rightele">
+                <a href="./" data="Services" className="navele leftele">Services</a>
+                <a href="./" data="Shop" className="navele rightele">
                 <NavLink className="navele rightele" to='./shop' > Shop </NavLink> </a>
-                <a data="Reviews" className="navele leftele">Reviews</a>
-                <a data="Contact" className="navele rightele">Contact</a>
+                <a href="./" data="Reviews" className="navele leftele">Reviews</a>
+                <a href="./" data="Contact" className="navele rightele">Contact</a>
             </div>
             
             </div>
