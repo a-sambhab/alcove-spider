@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.landing{
+    display: flex;
+}
+.left{
+    width: 25%;
+    height: 100vh;
+    background-color: #74897F;
+}
+
+
+.right{
+    width: 75%;
+    height: 100vh;
+    background-color: #32564C;
+    display: flex;
+    justify-content: flex-end;
+}
