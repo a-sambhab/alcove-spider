@@ -1,8 +1,23 @@
 import React from 'react';
+import TextTransition, { presets } from "react-text-transition";
 import About from '../components/About';
 import Services from '../components/Services';
 import './landing.css';
 const Landing = () => {
+    const Text = [
+        "Dynamic",
+        "Dreams",
+        "Design"
+    ];
+    const [index, setIndex] = React.useState(0);
+
+    React.useEffect(() => {
+        const intervalId = setInterval(() =>
+            setIndex(index => index + 1),
+            2000 // every 3 seconds
+            );
+            return () => clearTimeout(intervalId);
+        }, []);
     return(
         <>
             
@@ -11,7 +26,12 @@ const Landing = () => {
                 <div className="left-landing">
                     <div className="text-box-landing">
                         <div className="heading-landing"><h1>ALCOVE</h1></div>
-                        <div className="subheading-landing"><h2>We Help You Make Modern Interior.</h2></div>
+                        <div className="subheading-landing"><h2>
+                            <TextTransition
+                                text={ Text[index % Text.length]}
+                                springConfig={presets.gentle}
+                            />
+                        </h2></div>
                     </div>
 
                 </div>

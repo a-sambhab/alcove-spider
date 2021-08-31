@@ -44,9 +44,10 @@ color: #32564C;
     font-family: SansSerif;
 font-style: normal;
 font-weight: 100;
-font-size: 40px;
+font-size: 50px;
+text-transform: uppercase;
 line-height: 4rem;
-color: #EAEBEA;
+color: #32564C;
 }
 
 .right-landing{
@@ -70,8 +71,8 @@ color: #EAEBEA;
     height: 50%;
 }
 .vertical-text{
-font-size: 75px;
-margin-left: 68%;
+font-size: 85px;
+margin-left: 70%;
 padding: 0%;
 width: 100vh;
 height: 100vh;
