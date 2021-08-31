@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
 .landing{
@@ -18,6 +19,7 @@
     width: 50%;
     background-color: #97ABA6;
 }
+
 
 .text-box-landing{
     /* width: fit-content; */
@@ -49,6 +51,7 @@ color: #EAEBEA;
 
 .right-landing{
     width: 50%;
+
     background-color: #32564C;
     display: flex;
     flex-direction: row;

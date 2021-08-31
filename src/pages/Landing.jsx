@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from '../components/Navbar';
 import './landing.css';
 const Landing = () => {
     return(
         <>
+            <Navbar/>
             <div className="landing">
+
                 <div className="left-landing">
                     <div className="text-box-landing">
                         <div className="heading-landing"><h1>ALCOVE</h1></div>
@@ -19,6 +22,7 @@ const Landing = () => {
                     </div>
                 </div>
               
+
             </div>
         </>
     );
