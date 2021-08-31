@@ -1,0 +1,14 @@
+.aboutsection{
+    display: flex;
+    flex-direction: row;
+}
+.aboutleft{
+    width: 50%;
+    height: 100vh;
+    background-color: #32564C;
+}
+.aboutright{
+    width: 50%;
+    height: 100vh;
+    background-color: #97ABA6;
+}
