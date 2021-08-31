@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
 *{
     margin: 0%;
     padding: 0%;
@@ -99,10 +100,17 @@
     transition: all 0.5s ease-in-out;
 }
 .navele{
+    font-family: 'Big Shoulders Display', cursive;
+    /* font-family: Big Shoulders Display; */
+font-style: normal;
+font-weight: bold;
+font-size: 84px;
+/* line-height: 72px; */
+letter-spacing: 0.15em;
     cursor: pointer;
     /* transition-delay: 1s; */
     text-decoration: none;
-    font-size: 5rem;
+    /* font-size: 5rem; */
     z-index: 30;
     transition: all 0.9s ease-in-out;
 }
@@ -129,6 +137,6 @@
     transform: translateX(-5rem);
 }
 .rightele{
-    color: #74897F;
+    color: #97ABA6;
     transform: translateX(5rem);
 }
