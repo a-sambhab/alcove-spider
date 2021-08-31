@@ -5,7 +5,7 @@ const OurDesigners = () => {
         <>
         <div className="ourdesigners">
             <div className="ourdesigners-leftbox">
-                <div classname= "ourdesigners-leftbox-images">
+                <div className= "ourdesigners-leftbox-images">
                     <div className="ourdesigners-image">
                         <img className="designer1" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630409666/alcove/pexels-george-milton-7034741_co8s9a.jpg" alt=""></img>
                         <img className="designer2" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630409614/alcove/pexels-teddy-joseph-2955376_zxccoh.jpg" alt=""></img>
