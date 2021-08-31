@@ -1,23 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
 
 *{
-    margin:0;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
+
 .landing{
+    width: 100vw;
+    height: 100vh;
     display: flex;
 }
-.left{
-    width: 25%;
-    height: 100vh;
-    background-color: #74897F;
+
+.left-landing{
+    width: 50%;
+    background-color: #97ABA6;
 }
-.right{
-    width: 75%;
-    height: 100vh;
+
+
+.text-box-landing{
+    /* width: fit-content; */
+    width: 70%;
+    height: 50%;
+    margin-top: 15%;
+    margin-left: 10%;
+}
+
+.heading-landing{
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: normal;
+font-weight: bold;
+font-size: 74px;
+line-height: 172px;
+letter-spacing: 0.085em;
+
+color: #32564C;
+}
+
+.subheading-landing{
+    font-family: SansSerif;
+font-style: normal;
+font-weight: 100;
+font-size: 47px;
+line-height: 5.2rem;
+color: #EAEBEA;
+}
+
+.right-landing{
+    width: 50%;
+
     background-color: #32564C;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: row;
 }
+
+.image-box-right-landing{
+    width: 70%;
+    margin-top: 15%;
+    /* margin-left: 10%; */
+}
+
+.image-right-landing{
+    /* width: 700px;
+height: 432.54px; */
+width: 450px;
+height: 278.06px;
+right: 10%;
+}
+
+.vertical-box-landing{
+    width: 30%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.vertical-text{
+width: 100vh;
+height: 100vh;
+text-align: left;
+bottom: 0;
+font-family: Big Shoulders Display;
+font-style: normal;
+font-weight: bold;
+font-size: 84px;
+line-height: 320px;
+letter-spacing: 0.4em;
+color: #97ABA6;
+
+opacity: 0.15;
+transform: rotate(-90deg);
+}
+
+
+
