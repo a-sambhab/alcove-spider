@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.abouttop-aboutpage{
+    width: 100%;
+    height: 350px;
+    background-color: #32564C;
+}
+
+.aboutcompany-aboutpage{
+    width: 100%;
+    height: 350px;
+    background-color: #97ABA6;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutcompany-leftbox{
+    width: 33%;
+}
+
+.aboutcompany-leftbox-text{
+    width: 70%;
+    height: 80%;
+    margin: 3rem 3rem 1rem 3rem; 
+    text-align: center;
+    font-family: Big Shoulders Display;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 5.6rem;
+letter-spacing: 0.085em;
+
+color: #32564C;
+}
+
+.text-aboutourcompany{
+    padding-right: 0rem;
+    border-right: 6px solid #D77512;
+    
+}
+
+.aboutcompany-rightbox{
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutcompany-rightbox-text1, .aboutcompany-rightbox-text2{
+    width: 45%;
+    margin: 5rem 3rem 5rem 3rem;
+    font-size: 20px;
+    font-family: oswald;
+    /* font-family: Big Shoulders Display; */
+    font-weight: lighter;
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+.ourdesigners{
+    width: 100%;
+    height: 850px;
+    background-color: #32564C;
+    display: flex;
+    flex-direction: row;
+}
+
+.ourdesigners-leftbox{
+    width: 67%;
+    height: 100%
+}
+
+.ourdesigners-leftbox-images{
+    width:100%;
+    height: 100%
+}
+
+.ourdesigners-image{
+    margin: 20px;
+    justify-content: space-around;
+}
+
+.designer1, .designer2, .designer3, .designer4, .designer5, .designer6{
+    width: 300px;
+    height: 400px;
+    padding: 2rem;
+}
+
+.ourdesigners-rightbox{
+    width: 33%;
+}
+
+.ourdesigners-righttbox-text{
+    width: 70%;
+    height: 100%;
+    margin: 3rem 3rem 1rem 3rem; 
+    text-align: center;
+    
+}
+
+.heading-ourdesigners{
+    font-family: Big Shoulders Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 5.6rem;
+    letter-spacing: 0.085em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: #97ABA6;
+    border-bottom: 6px solid #D77512;
+}
+
+.subheading-ourdesigners{
+    /* width: 45%; */
+    /* margin: 5rem 3rem 5rem 3rem; */
+    font-size: 25px;
+    font-family: oswald;
+    /* font-family: Big Shoulders Display; */
+    font-weight: lighter;
+    margin-top: 2rem;
+
+    /* padding: 0rem 3rem 0rem 3rem;   */
+}
+
+/* .text-ourdesigners{
+
+} */
+
+
+
+/* .aboutpage{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .image-box-aboutpage{
+    width: 100%;
+    height: 50%;
+    background-color: #32564C;
+    display: flex;
+} */
+
+/* .aboutus-aboutpage{
+    width: 100%;
+    height: 50%;
+    background-color: #97ABA6;
+} */
+
+/* .image-top-aboutpage{
+    width: 400px;
+height: 300px;
+background-size: contain;
+height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* .ourdesigners-aboutpage{
+    width: 100%;
+    height: 50%;
+    background-color: #32564C;
+} */
