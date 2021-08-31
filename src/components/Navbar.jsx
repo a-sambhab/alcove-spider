@@ -6,6 +6,9 @@ const Navbar = () => {
     const Change = () => {
         setBurger(!Burger);
     }
+    const scrolltop = () => {
+        window.scrollTo(0,0);
+    }
     return(
         <>
             <div onClick={Change} className = {Burger ? "open" : "menu-btn"} >
@@ -14,15 +17,16 @@ const Navbar = () => {
             <div className="fullsecreennav">
            
             <div className = {Burger ? "navbar" : "closed"}>
-                <a onClick={Change} href="#home" data="HOME" className="navele leftele">
-                    <NavLink className="navele leftele" to='./'>HOME</NavLink>
+                <a onClick={Change}  href="#home" data="HOME" className="navele leftele">
+                    <NavLink onClick={scrolltop} className="navele leftele" to='./'>HOME</NavLink>
                 </a>
-                <NavLink onClick={Change} to='./aboutpage' data="ABOUT" className="navele rightele">
+                <a onClick={Change}  href="#home" data="ABOUT" className="navele rightele">
+                <NavLink  onClick={scrolltop} to='./aboutpage' data="ABOUT" className="navele rightele">
                     ABOUT
-                </NavLink>
+                </NavLink> </a>
                 <a onClick={Change} href="./" data="SERVICES" className="navele leftele">SERVICES</a>
                 <a onClick={Change} href="./" data="SHOP" className="navele rightele">
-                <NavLink className="navele rightele" to='./shop' > SHOP </NavLink> </a>
+                <NavLink onClick={scrolltop} className="navele rightele" to='./shop' > SHOP </NavLink> </a>
                 <a onClick={Change} href="./" data="REVIEWS" className="navele leftele">REVIEWS</a>
                 <a onClick={Change} href="./" data="CONTACT" className="navele rightele">CONTACT</a>
             </div>

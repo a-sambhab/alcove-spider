@@ -11,8 +11,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #D77512;
     cursor: pointer;
     z-index: 10;
     /* border: 3px solid #D77512; */
@@ -26,7 +28,7 @@
     height: 40px;
     top: 2.65%;
     left: 1.15%;
-    background-color: #D77512;
+    background-color: #40461F;
     border-radius: 50%;
     transition: all 0.5s ease-in-out;
     /* border: 3px solid red; */
@@ -63,11 +65,11 @@
     box-shadow: none;
 }
 .open .menu-btn_burger::before{
-    background-color: #32564C;
+    background-color: #D77512;
     transform: rotate(45deg) translate(-35px, 35px);
 }
 .open .menu-btn_burger::after{
-    background-color: #32564C;
+    background-color: #D77512;
     transform: rotate(-45deg) translate(-35px, -35px);
 }
 .closed{
@@ -79,6 +81,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s ease-in-out;
+}
+.closed a{
+    position: relative;
+    top: -20vh;
+    transition-delay: 1s;
+    color: #EAEBEA;
     transition: all 0.5s ease-in-out;
 }
 .navbar{
@@ -93,6 +102,11 @@
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in-out;
+}
+.navbar a{
+    transition-delay: 0.2s;
+    position: static;
+    top: 0vh;
 }
 .navele{
     font-family: 'Big Shoulders Display', cursive;
