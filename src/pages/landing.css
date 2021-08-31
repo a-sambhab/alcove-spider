@@ -9,13 +9,14 @@
 }
 
 .landing{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
 }
 
 .left-landing{
     width: 50%;
+    height: 100vh;
     background-color: #97ABA6;
 }
 
@@ -23,7 +24,7 @@
 .text-box-landing{
     /* width: fit-content; */
     width: 70%;
-    height: 50%;
+    height: 48%;
     margin-top: 15%;
     margin-left: 10%;
 }
@@ -35,7 +36,7 @@ font-weight: bold;
 font-size: 74px;
 line-height: 172px;
 letter-spacing: 0.085em;
-
+margin-bottom: 50px;
 color: #32564C;
 }
 
@@ -43,9 +44,10 @@ color: #32564C;
     font-family: SansSerif;
 font-style: normal;
 font-weight: 100;
-font-size: 47px;
-line-height: 5.2rem;
-color: #EAEBEA;
+font-size: 50px;
+text-transform: uppercase;
+line-height: 4rem;
+color: #32564C;
 }
 
 .right-landing{
@@ -56,27 +58,22 @@ color: #EAEBEA;
     flex-direction: row;
 }
 
-.image-box-right-landing{
-    width: 70%;
-    margin-top: 15%;
-    /* margin-left: 10%; */
-}
-
-.image-right-landing{
-    /* width: 700px;
-height: 432.54px; */
-width: 450px;
-height: 278.06px;
-right: 10%;
-}
-
 .vertical-box-landing{
-    width: 30%;
-    height: 100vh;
+    width: fit-content;
+    height: fit-content;
     overflow: hidden;
 }
-
+.image-box-right-landing img{
+    position: absolute;
+    top: 19%;
+    left: 40%;
+    width: 40vw;
+    height: 50%;
+}
 .vertical-text{
+font-size: 85px;
+margin-left: 70%;
+padding: 0%;
 width: 100vh;
 height: 100vh;
 text-align: left;
@@ -84,7 +81,6 @@ bottom: 0;
 font-family: Big Shoulders Display;
 font-style: normal;
 font-weight: bold;
-font-size: 84px;
 line-height: 320px;
 letter-spacing: 0.4em;
 color: #97ABA6;
@@ -92,6 +88,34 @@ color: #97ABA6;
 opacity: 0.15;
 transform: rotate(-90deg);
 }
-
-
-
+.bottom-info{
+    position: absolute;
+    bottom: 7.5%;
+    left: 15%;
+    width: 70%;
+    height: 20%;
+    border: 4px solid #D77512;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #EAEBEA;
+}
+.infobox{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 4px solid #D77512;
+}
+.infohead{
+    font-size: 30px;
+    margin: auto;
+}
+.infocon{
+    margin: auto;
+}
+.last{
+    border: none;
+}
