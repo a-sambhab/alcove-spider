@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.service{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.servicehead{
+    font-family: Big Shoulders Display;
+    width: 100vw;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2rem ; */
+    font-size: 65px;
+    padding-bottom: 2.5%;
+    letter-spacing: 1.5rem;
+    background-color: #32564C;
+    color: #D77512;
+    /* font-family: ; */
+    /* font-size: 200px; */
+}
+.servicecon{
+    width: 100vw;
+    height: 80%;
+    display: grid;
+    background-color: #32564C;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 4%;
+}
+.servicecard{
+    background-color: #32564C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5%; */
+    margin-bottom: 25%;
+    /* width: 60%; */
+    height: 100%;
+}
+#serimg1{
+    transform: translateY(-50px);
+}
+#serimg3{
+    transform: translateY(50px);
+}
+.servicecard img{
+    width: 60%;
+    height: 70%;
+    transition: all 0.3s ease-in-out;
+}
+.servicecard span{
+    margin: 20px 0px;
+    font-size: 3rem;
+    color: #D77512;
+    border-bottom: 2px solid #D77512;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+/* #serimg1:hover, #serimg2:hover, #serimg3:hover{
+    transform: scale(1.1);
+   
+} */
