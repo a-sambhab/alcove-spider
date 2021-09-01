@@ -43,10 +43,10 @@
     width: 21rem;
     height: 14rem;
 }
-#aboutdesign{
+.aboutdesign{
     width: 14rem;
     height: 26.5rem;
-    border-radius: 4%;
+    border-top-right-radius: 4%;
     z-index: 5;
     background-color: #D77512;
     position: relative;

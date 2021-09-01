@@ -22,7 +22,7 @@ const About = () => {
                     <img id="about2" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630332208/alcove/about2_ele7lt.jpg" alt="about2"/>
                     <img id="about3" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630332204/alcove/about_3_fp1ptq.jpg" alt="about3"/>
                     <img id="about4" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630332203/alcove/about_4_eifo6q.jpg" alt="about4"/>
-                    <div id="aboutdesign"></div>
+                    <div className="aboutdesign"></div>
                 </div>
                 <div className="aboutright">
                     <div className="heading-landing about-head"><h1>dreaming since 2021 </h1></div>

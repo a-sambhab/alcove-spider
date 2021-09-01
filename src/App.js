@@ -1,8 +1,7 @@
 import React from 'react';
 import Landing from './pages/Landing';
-import Shop from './pages/Shop';
+import ShopPage from './pages/ShopPage';
 import Navbar from './components/Navbar';
-import Scrollbar from './components/Scrollbar';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutPage from './pages/Aboutpage';
@@ -11,11 +10,10 @@ function App() {
     <>
       
       <Router>
-      <Scrollbar/>
       <Navbar/>
         <Switch>
           <Route path='/' exact component={Landing}/>
-          <Route path='/shop' exact component={Shop}/>
+          <Route path='/shop' exact component={ShopPage}/>
           <Route path='/aboutpage' exact component={AboutPage} />
         </Switch>
       </Router>
