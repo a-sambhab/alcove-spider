@@ -14,7 +14,7 @@
     top: 0%;
     right: 0;
     width: 10px;
-    /* height: 100vh; */
+    height: 100vh;
     border-radius: 10px;
     background: linear-gradient(to top, #008aff, #00ffe7);
     animation: animate 5s linear infinite;
