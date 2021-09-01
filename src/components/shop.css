@@ -7,6 +7,7 @@
     align-items: center;
     font-family: Big Shoulders Display;
     background-color: #74897F;
+    overflowY: hidden;
     }
 .shopsechead{
     transform: rotate(-90deg);
