@@ -2,6 +2,7 @@ import React from 'react';
 import Landing from './pages/Landing';
 import Shop from './pages/Shop';
 import Navbar from './components/Navbar';
+import Contact from './components/Contact';
 
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -16,6 +17,7 @@ function App() {
           <Route path='/shop' exact component={Shop}/>
           <Route path='/aboutpage' exact component={AboutPage} />
         </Switch>
+       <Contact /> 
       </Router>
     </>
   );
