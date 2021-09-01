@@ -24,7 +24,7 @@ const Navbar = () => {
                 <NavLink  onClick={scrolltop} to='./aboutpage' data="ABOUT" className="navele rightele">
                     ABOUT
                 </NavLink> </a>
-                <a onClick={Change} href="./" data="SERVICES" className="navele leftele">SERVICES</a>
+                <a onClick={Change} href="#service" data="SERVICES" className="navele leftele">SERVICES</a>
                 <a onClick={Change} href="./" data="SHOP" className="navele rightele">
                 <NavLink onClick={scrolltop} className="navele rightele" to='./shop' > SHOP </NavLink> </a>
                 <a onClick={Change} href="./" data="REVIEWS" className="navele leftele">REVIEWS</a>

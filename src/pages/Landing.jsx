@@ -2,6 +2,7 @@ import React from 'react';
 import TextTransition, { presets } from "react-text-transition";
 import About from '../components/About';
 import Services from '../components/Services';
+import Shop from '../components/Shop';
 import './landing.css';
 const Landing = () => {
     const Text = [
@@ -64,6 +65,7 @@ const Landing = () => {
             </div>
             <About/>
             <Services/>
+            <Shop/>
         </>
     );
 };

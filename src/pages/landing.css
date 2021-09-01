@@ -72,7 +72,7 @@ color: #32564C;
 }
 .vertical-text{
 font-size: 85px;
-margin-left: 70%;
+margin-left: 68%;
 padding: 0%;
 width: 100vh;
 height: 100vh;
@@ -84,7 +84,7 @@ font-weight: bold;
 line-height: 320px;
 letter-spacing: 0.4em;
 color: #97ABA6;
-
+/* overflow: visible; */
 opacity: 0.15;
 transform: rotate(-90deg);
 }
