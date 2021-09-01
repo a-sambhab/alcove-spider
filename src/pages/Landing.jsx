@@ -1,16 +1,37 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
+import TextTransition, { presets } from "react-text-transition";
+import About from '../components/About';
+import Services from '../components/Services';
 import './landing.css';
 const Landing = () => {
+    const Text = [
+        "Dynamic",
+        "Dreams",
+        "Design"
+    ];
+    const [index, setIndex] = React.useState(0);
+
+    React.useEffect(() => {
+        const intervalId = setInterval(() =>
+            setIndex(index => index + 1),
+            2000 // every 3 seconds
+            );
+            return () => clearTimeout(intervalId);
+        }, []);
     return(
         <>
-            <Navbar/>
-            <div className="landing">
+            
+            <div id="home" className="landing">
 
                 <div className="left-landing">
                     <div className="text-box-landing">
                         <div className="heading-landing"><h1>ALCOVE</h1></div>
-                        <div className="subheading-landing"><h2>We Help You Make Modern Interior.</h2></div>
+                        <div className="subheading-landing"><h2>
+                            <TextTransition
+                                text={ Text[index % Text.length]}
+                                springConfig={presets.gentle}
+                            />
+                        </h2></div>
                     </div>
 
                 </div>
@@ -21,9 +42,28 @@ const Landing = () => {
                     <div className="vertical-text"><h1>INTERIOR</h1></div>
                     </div>
                 </div>
-              
 
+                <div className="bottom-info">
+                    <div className="infobox">
+                        <span className="infohead">$5.2 M</span>
+                        <span className="infocon">Worth Revenue</span>
+                    </div>
+                    <div className="infobox">
+                        <span className="infohead">5.6K+</span>
+                        <span className="infocon">Homes Built</span>
+                    </div>
+                    <div className="infobox">
+                        <span className="infohead">200K+</span>
+                        <span className="infocon">Happy Clients</span>
+                    </div>
+                    <div className="infobox last">
+                        <span className="infohead">4.8</span>
+                        <span className="infocon">Review</span>
+                    </div>
+                </div>
             </div>
+            <About/>
+            <Services/>
         </>
     );
 };
