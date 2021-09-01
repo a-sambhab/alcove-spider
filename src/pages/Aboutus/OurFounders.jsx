@@ -45,5 +45,5 @@ const OurFounders = () => {
         </>
     );
 }
-
+//founders section added
 export default OurFounders;
