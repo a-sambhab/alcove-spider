@@ -40,7 +40,7 @@ const About = () => {
                     ""
                     )}
                     </div>
-                    <button className="knowmore"> <NavLink style={{textDecoration: "none", color: "#32564C"}} to='./aboutpage' onClick={scrolltop}> Know More </NavLink></button>
+                    <button className="knowmoreabout"> <NavLink style={{textDecoration: "none", color: "#32564C"}} to='./aboutpage' onClick={scrolltop}> Know More </NavLink></button>
                 </div>
             
             
