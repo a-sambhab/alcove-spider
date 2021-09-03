@@ -25,11 +25,11 @@
 }
 .servicecon{
     width: 100vw;
-    height: 80%;
+    height: 100%;
     display: grid;
     background-color: #32564C;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
 }
 .servicecard{
     background-color: #32564C;
@@ -38,20 +38,24 @@
     justify-content: center;
     align-items: center;
     /* margin-top: 5%; */
-    margin-bottom: 25%;
+    /* margin-bottom: 25%; */
     /* width: 60%; */
     height: 100%;
 }
-#serimg1{
+/* #serimg1{
     transform: translateY(-50px);
 }
 #serimg3{
     transform: translateY(50px);
-}
+} */
 .servicecard img{
-    width: 60%;
-    height: 70%;
+    width: 65%;
+    height: 90%;
     transition: all 0.3s ease-in-out;
+}
+.servicecard:hover img{
+    transform: scale(1.1);
+    opacity: 0.6;
 }
 .servicecard span{
     margin: 20px 0px;
@@ -59,7 +63,15 @@
     color: #D77512;
     border-bottom: 2px solid #D77512;
     letter-spacing: 5px;
+    position: relative;
+    top: 20px;
+    opacity: 0;
     text-transform: uppercase;
+    transition: all 0.3s;
+}
+.servicecard:hover span{
+    opacity: 1;
+    top: -50px;
 }
 
 .svg-servicesection-topleftdiv{
