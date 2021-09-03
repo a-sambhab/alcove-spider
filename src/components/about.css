@@ -1,6 +1,7 @@
 .aboutsection{
     display: flex;
     flex-direction: row;
+    /* z-index: 10; */
 }
 .aboutleft{
     width: 50%;
@@ -42,16 +43,17 @@
     margin-top: 20px;
     width: 21rem;
     height: 14rem;
+    z-index: 10;
 }
 .aboutdesign{
-    width: 14rem;
-    height: 26.5rem;
-    border-top-right-radius: 4%;
+    width: 36rem;
+    height: 50.5rem;
+    border-top-right-radius: 0%;
     z-index: 5;
     background-color: #D77512;
     position: relative;
     /* top: 15px; */
-    bottom: 22rem;
+    bottom: 8rem;
 }
 /* #above4::before{
     content: "";
@@ -67,6 +69,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: -2;
 }
 .about-head{
     text-transform: uppercase;
@@ -91,7 +94,7 @@
     color: #32564C;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3),
                 0px -5px 15px -5px rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
+    border-radius: 0px;
     transition: all 100s ease-in-out;
 }
 .knowmore:hover{
@@ -105,4 +108,11 @@
     font-size: 40px;
     color: #eaeaea;
     text-transform: capitalize;
+}
+
+.svg-aboutsection-topleftdiv{
+    position: absolute;
+    /* top: 100px; */
+    /* z-index: 100; */
+    left: 10px;
 }

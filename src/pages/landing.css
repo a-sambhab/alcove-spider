@@ -120,6 +120,22 @@ transform: rotate(-90deg);
     border: none;
 }
 
+/* svg */
+/* .svg-landingpage-bottomleft{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+} */
+
+.svg-landingpage-bottomleftdiv{
+    position: absolute;
+    bottom: -22px;
+    left: 10px;
+    overflow: hidden;
+}
+
+/* scroll bar */
+
 body::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
