@@ -45,16 +45,16 @@
     height: 14rem;
     z-index: 10;
 }
-.aboutdesign{
+/* .aboutdesign{
     width: 36rem;
     height: 50.5rem;
     border-top-right-radius: 0%;
     z-index: 5;
     background-color: #D77512;
     position: relative;
-    /* top: 15px; */
+    top: 15px;
     bottom: 8rem;
-}
+} */
 /* #above4::before{
     content: "";
     background-color: #D77512;
@@ -82,7 +82,7 @@
     height: 5px;
     background-color: #D77512;
 }
-.knowmore{
+.knowmoreabout{
     margin: 0%;
     width: 15%;
     height: 5%;
@@ -97,7 +97,7 @@
     border-radius: 0px;
     transition: all 100s ease-in-out;
 }
-.knowmore:hover{
+.knowmoreabout:hover{
     box-shadow: inset 0px 5px 15px -5px rgba(0, 0, 0, 0.3),
                 inset 0px -5px 15px -5px rgba(255, 255, 255, 0.3);
 }
