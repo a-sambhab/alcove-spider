@@ -34,6 +34,7 @@ const Landing = () => {
                             />
                         </h2></div>
                     </div>
+                    <div className="svg-landingpage-bottomleftdiv"><img classname="svg-landingpage-bottomleft" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630684569/alcove/landing_page_left_bottom_f11x1w.svg" alt=""/></div>
 
                 </div>
 
