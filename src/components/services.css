@@ -61,6 +61,21 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+
+.svg-servicesection-topleftdiv{
+    position: absolute;
+    left: 10px;
+}
+
+.svg-servicesection-toprightdiv{
+    position: absolute;
+    right: 19px;
+    height: 161px;
+    /* padding-top: 0.3rem; */
+    /* top: 10px; */
+}
+
+
 /* #serimg1:hover, #serimg2:hover, #serimg3:hover{
     transform: scale(1.1);
    
