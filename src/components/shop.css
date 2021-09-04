@@ -32,7 +32,7 @@
     position: relative;
     width: 320px;
     height: 420px;
-    background: #32564C;
+    /* background: #32564C; */
     /* border-radius: 2px; */
     overflow: hidden;
     display: flex;

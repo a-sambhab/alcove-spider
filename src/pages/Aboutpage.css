@@ -258,43 +258,105 @@ color: #97ABA6;
     text-align: center;
 }
 
-.ourfounders-box{
-    width: 300px;
-    height: 80vh;
-    background-color: #32564C;
-    margin-left: 2rem;
+.aboutfoun{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
 }
-
-.sai-image, .shantanu-image{
+.aboutfoun .founcard{
+    position: relative;
     width: 300px;
     height: 400px;
-}
-
-.text-box-founder{
+    background: #32564C;
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
 }
-
-.founder-name{
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    color: whitesmoke;
+.aboutfoun .founcard .founcon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: all 0.5s;
 }
-.branch-college-name-founder{
-    font-family: sans-serif;
-    font-size: 0.7rem;
-    padding: 0.7rem;
-    line-height: 2rem;
+.aboutfoun .founcard:hover .founcon{
+    opacity: 1;
+}
+.aboutfoun .founcard .founcon .founimg{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+}
+.aboutfoun .founcard .founcon .founimg img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    object-fit: cover;
+}
+.aboutfoun .founcard .founcon .founcontent h3{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
     text-align: center;
-    color: #97ABA6
+    margin: 20px 0 10px;
+    line-height: 1.1em;
 }
-
-.text-founder-cofounder{
-    color: whitesmoke;
+.aboutfoun .founcard .founcon .founcontent span{
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
 }
-
+.founcard .sci{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+}
+.founcard .sci li{
+    list-style: none;
+    margin: 0% 10px;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: all 0.5s;
+}
+.founcard:hover .sci li{
+    transform: translateY(0px);
+    opacity: 1;
+}
+.founcard:hover .sci .githubic{
+    transition-delay: 0.1s;
+}
+.founcard:hover .sci .instaic{
+    transition-delay: 0.2s;
+}
+.founcard:hover .sci .linkedic{
+    transition-delay: 0.3s;
+}
+.sci li a{
+    color: #fff;
+    font-size: 24px;
+}
+.sci li a img{
+    width: 20px;
+    height: 20px;
+}
 /* .text-ourdesigners{
 
 } */
