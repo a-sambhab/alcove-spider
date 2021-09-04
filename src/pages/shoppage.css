@@ -1,0 +1,61 @@
+.shoplanding{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shoplandhead{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #32564C;
+}
+.shoplandhead h1{
+    text-transform: uppercase;
+    font-size: 10rem;
+    border-bottom: 10px solid #D77512;
+    border-radius: 5px;
+    text-align: center;
+    color: #97ABA6;
+    font-family: Big Shoulders Display;
+    letter-spacing: 20px;
+}
+.shoplandimg{
+    height: 70vh;
+    width: 100%;
+}
+.shoplandimg img{
+    height: 100%;
+    width: 100%;
+}
+.lightprods{
+    height: 100%;
+    width: 100%;
+    background-color: #97ABA6;
+}
+.lightprods .shoplandhead, .furniture .shoplandhead{
+    background-color: #97ABA6;
+}
+.lightprods .shoplandhead h1, .furniture .shoplandhead h1{
+    color: #32564C;
+
+}
+.lightsec, .decorsec, .furnsec{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+}
+.decorsec{
+    background-color: #32564C;
+}
+.furnsec{
+    background-color: #97ABA6;
+}
