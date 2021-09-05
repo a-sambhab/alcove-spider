@@ -45,7 +45,7 @@
     height: 14rem;
     z-index: 10;
 }
-/* .aboutdesign{
+.aboutdesign{
     width: 36rem;
     height: 50.5rem;
     border-top-right-radius: 0%;
@@ -54,7 +54,7 @@
     position: relative;
     top: 15px;
     bottom: 8rem;
-} */
+}
 /* #above4::before{
     content: "";
     background-color: #D77512;
