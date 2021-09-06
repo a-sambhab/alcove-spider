@@ -30,11 +30,11 @@ const Contact = () => {
 
                             <div className="text-box2">
                                 <div className="email-text-box2">
-                                <div className="heading-text-box2"><h1>E-MAIL :</h1></div>
+                                <div className="heading-text-box2"><h1>E-MAIL:</h1></div>
                                 <div className="subheading-text-box2"><h2>alcoveinterior@gmail.com</h2></div>
                                 </div>
                                 <div className="call-text-box2">
-                                <div className="heading-text-box2"><h1>CALL :</h1></div>
+                                <div className="heading-text-box2"><h1>CALL:</h1></div>
                                 <div className="subheading-text-box2"><h2>6200-211-212</h2></div>
                                 </div>
                             </div>

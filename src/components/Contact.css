@@ -118,6 +118,7 @@
     border-top: 3px solid #D77512;
 }
 
+
 .text-box2{
     display: flex;
     flex-direction: column;
@@ -133,6 +134,8 @@
     align-items: center;
 }
 
+
+
 .heading-text-box2, .heading-text-box3, .subheading-text-box3{
     font-family: Big Shoulders Display;
     font-style: normal;
@@ -146,6 +149,8 @@
     /* margin-bottom: 1rem; */
     color: #97ABA6;
 }
+
+
 
 .subheading-text-box2{
     font-family: Big Shoulders Display;
@@ -161,6 +166,8 @@
     color: #97ABA6;
 }
 
+
+
 .svg-contactsection-topleftdiv{
     position: absolute;
     /* top: 100px; */
@@ -174,4 +181,59 @@
     margin-top: 519.1px;
 }
 
+@media (max-width: 1360px) {
+    .text-box2, .text-box3, .text-box1{
+        width: 90%;
+    }
+    .text-box1{
+        width: 60%;
+    }
+}
 
+@media (max-width: 1050px){
+    .heading-text-box2, .heading-text-box3, .subheading-text-box3, .subheading-text-box2{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px){
+    .heading-text-left-section-contact, .subheading-text-left-section-contact{
+        font-size: 34px;
+    }
+    .heading-text-box2{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 750px) {
+    .text-box2, .text-box3, .text-box1{
+        width: 90%;
+    }
+    .text-box1{
+        width: 90%;
+    }
+}
+
+@media (max-width: 750px) {
+    .contact-section{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .left-section-contact{
+        width: 100%;
+    }
+
+    .right-section-contact{
+        width: 100%;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .svg-contactsection-bottomleftdiv, .svg-contactsection-topleftdiv{
+        display: none;
+    }
+}
