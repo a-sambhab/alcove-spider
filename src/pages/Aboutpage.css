@@ -171,7 +171,7 @@ color: #97ABA6;
 
 .latestprojects{
     width: 100%;
-    height: 900px;
+    height: fit-content;
     background-color: #32564C;
     display: flex;
     flex-direction: column;
@@ -179,7 +179,7 @@ color: #97ABA6;
 
 .topsection-latestprojects, .bottomsection-latestprojects{
     width: 100%;
-    height: 450px;
+    height: fit-content;
 }
 
 .topsection-box, .bottomsection-box{
@@ -542,48 +542,61 @@ color: #97ABA6;
     }
 }
 
+/* latest projects section responsive */
+
+@media (max-width: 1470px){
+    .latestproject1 {
+        width: auto;
+        height: 450px;
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1470px){
+    .latestproject1 {
+        width: auto;
+        height: 400px;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 1200px){
+    .latestproject1 {
+        width: auto;
+        height: 350px;
+        padding: 1rem;
+    }
+
+    .heading-latest-projects{
+        font-size: 34px;
+        line-height: 4.6rem;
+    }
+}
+
+@media (max-width: 1050px){
+    .latestproject1 {
+        width: auto;
+        height: 300px;
+        padding: 1rem;
+    }
+
+    .heading-latest-projects{
+        font-size: 28px;
+        line-height: 4.6rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .textbox-latest-projects{
+        width: 80%;
+    }
+}
+
+@media (max-width: 850px){
+    .latestproject1 {
+        width: auto;
+        height: 400px;
+        padding: 1rem;
+    }
+}
 
 
-
-
-/* .text-ourdesigners{
-
-} */
-
-
-
-/* .aboutpage{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-} */
-
-/* .image-box-aboutpage{
-    width: 100%;
-    height: 50%;
-    background-color: #32564C;
-    display: flex;
-} */
-
-/* .aboutus-aboutpage{
-    width: 100%;
-    height: 50%;
-    background-color: #97ABA6;
-} */
-
-/* .image-top-aboutpage{
-    width: 400px;
-height: 300px;
-background-size: contain;
-height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* .ourdesigners-aboutpage{
-    width: 100%;
-    height: 50%;
-    background-color: #32564C;
-} */
