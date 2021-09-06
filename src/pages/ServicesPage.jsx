@@ -111,7 +111,7 @@ const ServicesPage =() => {
                 </div>
             </div>
 
-            <div className="section1-servicespage">
+            {/* <div className="section1-servicespage">
                 <div className="topsection-section2">
                     <div className="leftsection-section1">
                         <div className="textbox-leftsection-section1">
@@ -142,7 +142,7 @@ const ServicesPage =() => {
                          <img className="image-bottomsection-section1" src="https://res.cloudinary.com/dzbdnlr0f/image/upload/v1630916434/alcove/pexels-dayvison-de-oliveira-silva-5696287_2_tihdsc.png" alt="aboutpage"/>
                     </div>
                 </div>
-            </div>
+            </div> */}
             
         </div>
     )
